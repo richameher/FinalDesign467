@@ -12,6 +12,7 @@ import json
 credentials_file = "../.secrets/credentials.json"
 with open(credentials_file) as f:
     params = json.load(f)
+api_key = params['api_key']
 
 # supported types: https://developers.google.com/maps/documentation/places/web-service/supported_types
 types = ['restaurant', 'tourist_attraction', 'point_of_interest']
