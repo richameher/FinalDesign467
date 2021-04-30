@@ -1,0 +1,1191 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook original-version='18.1' source-build='2021.1.0 (20211.21.0320.1853)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='forecast_chicago' inline='true' name='federated.1uu9u560i5lvz318e6nfp0htkqy4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='forecast_chicago' name='textscan.1ggpsbu13ymcf916uv3dr1awt9n5'>
+            <connection class='textscan' directory='C:/Users/tsai2/OneDrive/Documents/CS 467/final_design/FinalDesign467/data' filename='forecast_chicago.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ggpsbu13ymcf916uv3dr1awt9n5' name='forecast_chicago.csv' table='[forecast_chicago#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='datetime' name='Date time' ordinal='1' />
+            <column datatype='real' name='Maximum Temperature' ordinal='2' />
+            <column datatype='real' name='Minimum Temperature' ordinal='3' />
+            <column datatype='real' name='Temperature' ordinal='4' />
+            <column datatype='real' name='Wind Chill' ordinal='5' />
+            <column datatype='real' name='Heat Index' ordinal='6' />
+            <column datatype='real' name='Chance Precipitation (%)' ordinal='7' />
+            <column datatype='real' name='Precipitation' ordinal='8' />
+            <column datatype='integer' name='Snow' ordinal='9' />
+            <column datatype='integer' name='Snow Depth' ordinal='10' />
+            <column datatype='real' name='Wind Speed' ordinal='11' />
+            <column datatype='real' name='Wind Direction' ordinal='12' />
+            <column datatype='real' name='Wind Gust' ordinal='13' />
+            <column datatype='real' name='Visibility' ordinal='14' />
+            <column datatype='real' name='Cloud Cover' ordinal='15' />
+            <column datatype='real' name='Relative Humidity' ordinal='16' />
+            <column datatype='string' name='Conditions' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ggpsbu13ymcf916uv3dr1awt9n5' name='forecast_chicago.csv' table='[forecast_chicago#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='datetime' name='Date time' ordinal='1' />
+            <column datatype='real' name='Maximum Temperature' ordinal='2' />
+            <column datatype='real' name='Minimum Temperature' ordinal='3' />
+            <column datatype='real' name='Temperature' ordinal='4' />
+            <column datatype='real' name='Wind Chill' ordinal='5' />
+            <column datatype='real' name='Heat Index' ordinal='6' />
+            <column datatype='real' name='Chance Precipitation (%)' ordinal='7' />
+            <column datatype='real' name='Precipitation' ordinal='8' />
+            <column datatype='integer' name='Snow' ordinal='9' />
+            <column datatype='integer' name='Snow Depth' ordinal='10' />
+            <column datatype='real' name='Wind Speed' ordinal='11' />
+            <column datatype='real' name='Wind Direction' ordinal='12' />
+            <column datatype='real' name='Wind Gust' ordinal='13' />
+            <column datatype='real' name='Visibility' ordinal='14' />
+            <column datatype='real' name='Cloud Cover' ordinal='15' />
+            <column datatype='real' name='Relative Humidity' ordinal='16' />
+            <column datatype='string' name='Conditions' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date time</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Date time]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Date time</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Maximum Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Maximum Temperature]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Maximum Temperature</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minimum Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Minimum Temperature]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Minimum Temperature</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Temperature</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind Chill</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wind Chill]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Wind Chill</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Heat Index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Heat Index]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Heat Index</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chance Precipitation (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Chance Precipitation (%)]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Chance Precipitation (%)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Precipitation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Precipitation]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Precipitation</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snow</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Snow]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Snow</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snow Depth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Snow Depth]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Snow Depth</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind Speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wind Speed]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Wind Speed</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind Direction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wind Direction]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Wind Direction</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind Gust</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wind Gust]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Wind Gust</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Visibility</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Visibility]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Visibility</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cloud Cover</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cloud Cover]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Cloud Cover</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relative Humidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Relative Humidity]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Relative Humidity</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conditions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Conditions]</local-name>
+            <parent-name>[forecast_chicago.csv]</parent-name>
+            <remote-alias>Conditions</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='forecast_chicago.csv' datatype='table' name='[__tableau_internal_object_id__].[forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='forecast_chicago.csv' id='forecast_chicago.csv_4B0BBFB8FC4848CD88CA7850CAC2789D'>
+            <properties context=''>
+              <relation connection='textscan.1ggpsbu13ymcf916uv3dr1awt9n5' name='forecast_chicago.csv' table='[forecast_chicago#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='datetime' name='Date time' ordinal='1' />
+                  <column datatype='real' name='Maximum Temperature' ordinal='2' />
+                  <column datatype='real' name='Minimum Temperature' ordinal='3' />
+                  <column datatype='real' name='Temperature' ordinal='4' />
+                  <column datatype='real' name='Wind Chill' ordinal='5' />
+                  <column datatype='real' name='Heat Index' ordinal='6' />
+                  <column datatype='real' name='Chance Precipitation (%)' ordinal='7' />
+                  <column datatype='real' name='Precipitation' ordinal='8' />
+                  <column datatype='integer' name='Snow' ordinal='9' />
+                  <column datatype='integer' name='Snow Depth' ordinal='10' />
+                  <column datatype='real' name='Wind Speed' ordinal='11' />
+                  <column datatype='real' name='Wind Direction' ordinal='12' />
+                  <column datatype='real' name='Wind Gust' ordinal='13' />
+                  <column datatype='real' name='Visibility' ordinal='14' />
+                  <column datatype='real' name='Cloud Cover' ordinal='15' />
+                  <column datatype='real' name='Relative Humidity' ordinal='16' />
+                  <column datatype='string' name='Conditions' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='forecast_data_chicago_hourly' inline='true' name='federated.0qw5xv21inv6cx114h0mp1tumz1j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='forecast_chicago' name='textscan.1hogrg81ll4zzt15mmcz21hpynmh'>
+            <connection class='textscan' directory='C:/Users/tsai2/OneDrive/Documents/CS 467/final_design/FinalDesign467/data' filename='forecast_chicago.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1hogrg81ll4zzt15mmcz21hpynmh' name='forecast_data_chicago_hourly.csv' table='[forecast_data_chicago_hourly#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='datetime' name='Date time' ordinal='1' />
+            <column datatype='real' name='Temperature' ordinal='2' />
+            <column datatype='real' name='Wind Chill' ordinal='3' />
+            <column datatype='real' name='Heat Index' ordinal='4' />
+            <column datatype='real' name='Chance Precipitation (%)' ordinal='5' />
+            <column datatype='real' name='Precipitation' ordinal='6' />
+            <column datatype='integer' name='Snow' ordinal='7' />
+            <column datatype='integer' name='Snow Depth' ordinal='8' />
+            <column datatype='real' name='Wind Speed' ordinal='9' />
+            <column datatype='real' name='Wind Direction' ordinal='10' />
+            <column datatype='real' name='Wind Gust' ordinal='11' />
+            <column datatype='real' name='Visibility' ordinal='12' />
+            <column datatype='real' name='Cloud Cover' ordinal='13' />
+            <column datatype='real' name='Relative Humidity' ordinal='14' />
+            <column datatype='string' name='Conditions' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1hogrg81ll4zzt15mmcz21hpynmh' name='forecast_data_chicago_hourly.csv' table='[forecast_data_chicago_hourly#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='datetime' name='Date time' ordinal='1' />
+            <column datatype='real' name='Temperature' ordinal='2' />
+            <column datatype='real' name='Wind Chill' ordinal='3' />
+            <column datatype='real' name='Heat Index' ordinal='4' />
+            <column datatype='real' name='Chance Precipitation (%)' ordinal='5' />
+            <column datatype='real' name='Precipitation' ordinal='6' />
+            <column datatype='integer' name='Snow' ordinal='7' />
+            <column datatype='integer' name='Snow Depth' ordinal='8' />
+            <column datatype='real' name='Wind Speed' ordinal='9' />
+            <column datatype='real' name='Wind Direction' ordinal='10' />
+            <column datatype='real' name='Wind Gust' ordinal='11' />
+            <column datatype='real' name='Visibility' ordinal='12' />
+            <column datatype='real' name='Cloud Cover' ordinal='13' />
+            <column datatype='real' name='Relative Humidity' ordinal='14' />
+            <column datatype='string' name='Conditions' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date time</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Date time]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Date time</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Temperature</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind Chill</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wind Chill]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Wind Chill</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Heat Index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Heat Index]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Heat Index</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chance Precipitation (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Chance Precipitation (%)]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Chance Precipitation (%)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Precipitation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Precipitation]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Precipitation</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snow</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Snow]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Snow</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snow Depth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Snow Depth]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Snow Depth</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind Speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wind Speed]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Wind Speed</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind Direction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wind Direction]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Wind Direction</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind Gust</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wind Gust]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Wind Gust</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Visibility</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Visibility]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Visibility</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cloud Cover</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cloud Cover]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Cloud Cover</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relative Humidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Relative Humidity]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Relative Humidity</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conditions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Conditions]</local-name>
+            <parent-name>[forecast_data_chicago_hourly.csv]</parent-name>
+            <remote-alias>Conditions</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0qw5xv21inv6cx114h0mp1tumz1j]&quot;' value='Temperature (F)' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='forecast_data_chicago_hourly.csv' datatype='table' name='[__tableau_internal_object_id__].[forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='forecast_data_chicago_hourly.csv' id='forecast_data_chicago_hourly.csv_D7E5D18A8177403FBCB1A3B6F1036F04'>
+            <properties context=''>
+              <relation connection='textscan.1hogrg81ll4zzt15mmcz21hpynmh' name='forecast_data_chicago_hourly.csv' table='[forecast_data_chicago_hourly#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='datetime' name='Date time' ordinal='1' />
+                  <column datatype='real' name='Temperature' ordinal='2' />
+                  <column datatype='real' name='Wind Chill' ordinal='3' />
+                  <column datatype='real' name='Heat Index' ordinal='4' />
+                  <column datatype='real' name='Chance Precipitation (%)' ordinal='5' />
+                  <column datatype='real' name='Precipitation' ordinal='6' />
+                  <column datatype='integer' name='Snow' ordinal='7' />
+                  <column datatype='integer' name='Snow Depth' ordinal='8' />
+                  <column datatype='real' name='Wind Speed' ordinal='9' />
+                  <column datatype='real' name='Wind Direction' ordinal='10' />
+                  <column datatype='real' name='Wind Gust' ordinal='11' />
+                  <column datatype='real' name='Visibility' ordinal='12' />
+                  <column datatype='real' name='Cloud Cover' ordinal='13' />
+                  <column datatype='real' name='Relative Humidity' ordinal='14' />
+                  <column datatype='string' name='Conditions' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Weather'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='forecast_data_chicago_hourly' name='federated.0qw5xv21inv6cx114h0mp1tumz1j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qw5xv21inv6cx114h0mp1tumz1j'>
+            <column datatype='real' name='[Chance Precipitation (%)]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Date time]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Temperature]' role='measure' type='quantitative' />
+            <column-instance column='[Chance Precipitation (%)]' derivation='Attribute' name='[attr:Chance Precipitation (%):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date time]' derivation='MDY' name='[md:Date time:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Temperature]' derivation='None' name='[none:Temperature:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date time]' derivation='Hour-Trunc' name='[thr:Date time:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[md:Date time:ok]'>
+            <groupfilter function='member' level='[md:Date time:ok]' member='20210423' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0qw5xv21inv6cx114h0mp1tumz1j].[md:Date time:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[none:Temperature:qk]' scope='rows' value='Temperature (F)' />
+            <encoding attr='space' class='0' field='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[attr:Chance Precipitation (%):qk]' field-type='quantitative' fold='true' max='100.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[:Measure Names]' value='Legend'>
+              <formatted-text>
+                <run>Legend</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <tooltip column='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[attr:Chance Precipitation (%):qk]' />
+              <color column='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Hour of Date time:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qw5xv21inv6cx114h0mp1tumz1j].[hr:Date time:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Temperature:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qw5xv21inv6cx114h0mp1tumz1j].[none:Temperature:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true'><![CDATA[Chance of Precipitation:<[federated.0qw5xv21inv6cx114h0mp1tumz1j].[attr:Chance Precipitation (%):qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[none:Temperature:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <tooltip column='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[attr:Chance Precipitation (%):qk]' />
+              <color column='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Hour of Date time:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qw5xv21inv6cx114h0mp1tumz1j].[thr:Date time:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Temperature:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qw5xv21inv6cx114h0mp1tumz1j].[none:Temperature:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true'><![CDATA[Chance of Precipitation:<[federated.0qw5xv21inv6cx114h0mp1tumz1j].[attr:Chance Precipitation (%):qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[attr:Chance Precipitation (%):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <tooltip column='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[attr:Chance Precipitation (%):qk]' />
+              <color column='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Hour of Date time:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qw5xv21inv6cx114h0mp1tumz1j].[thr:Date time:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Temperature:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qw5xv21inv6cx114h0mp1tumz1j].[none:Temperature:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true'><![CDATA[Chance of Precipitation:<[federated.0qw5xv21inv6cx114h0mp1tumz1j].[attr:Chance Precipitation (%):qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0qw5xv21inv6cx114h0mp1tumz1j].[none:Temperature:qk] + [federated.0qw5xv21inv6cx114h0mp1tumz1j].[attr:Chance Precipitation (%):qk])</rows>
+        <cols>[federated.0qw5xv21inv6cx114h0mp1tumz1j].[thr:Date time:qk]</cols>
+      </table>
+      <simple-id uuid='{813385AF-6E62-4D20-90B5-09B08F3D94A0}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='forecast_data_chicago_hourly' name='federated.0qw5xv21inv6cx114h0mp1tumz1j' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0qw5xv21inv6cx114h0mp1tumz1j'>
+        <column datatype='datetime' name='[Date time]' role='dimension' type='ordinal' />
+        <column-instance column='[Date time]' derivation='MDY' name='[md:Date time:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Weather' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' w='16000' x='83200' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='7625' id='8' mode='dropdown' name='Weather' param='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[md:Date time:ok]' values='database' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='12' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='11' param='vert' w='98400' x='800' y='1000'>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='7625' id='8' mode='dropdown' name='Weather' param='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[md:Date time:ok]' values='database' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Weather' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0069DB27-992B-47AB-8ECE-F0069A5A09CF}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='Weather'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[md:Date time:ok]' type='filter' />
+            <card pane-specification-id='2' param='[federated.0qw5xv21inv6cx114h0mp1tumz1j].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qw5xv21inv6cx114h0mp1tumz1j].[md:Date time:ok]</field>
+            <field>[federated.0qw5xv21inv6cx114h0mp1tumz1j].[yr:Date time:ok]</field>
+            <field>[federated.1uu9u560i5lvz318e6nfp0htkqy4].[none:Chance Precipitation (%):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0981D3C4-4463-4E42-82CA-0F4B963180AF}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Weather'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{9872847F-6AA5-4576-9AA6-7E6E388CA760}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Weather' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
