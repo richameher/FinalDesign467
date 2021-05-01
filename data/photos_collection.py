@@ -7,6 +7,7 @@ Requirements:
 import googlemaps
 import json
 import traceback
+import os
 
 # You should have a file containing your reddit credentials
 # This file should never be shared /or pushed to git
@@ -19,15 +20,20 @@ api_key = params['api_key']
 client = googlemaps.Client(api_key)
 
 # Read place data (created by poptimes_collection.py)
-json_file = "uiuc.json"
+json_file = "chicago_clean.json"
 with open(json_file) as f:
     place_data = json.load(f)
+
+# Create image out directory
+img_directory = json_file.split(".")[0]
+if not os.path.exists(img_directory):
+    os.makedirs(img_directory)
 
 for place in place_data:
 
     place_id = place["id"]
     # TODO: how to pick filetype ??
-    img_outfile = "{}/{}.jpg".format(json_file.split(".")[0], place_id)
+    img_outfile = "{}/{}.jpg".format(img_directory, place_id)
 
     try:
         # Make a Place Details request to get photo reference
