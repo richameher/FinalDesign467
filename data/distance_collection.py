@@ -22,7 +22,7 @@ api_key = params['api_key']
 client = googlemaps.Client(api_key)
 
 # Read place data (created by poptimes_collection.py)
-json_file = "uiuc.json"
+json_file = "chicago_clean.json"
 with open(json_file) as f:
     place_data = json.load(f)
 n_places = len(place_data)
