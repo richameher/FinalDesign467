@@ -1,7 +1,19 @@
 [
   {
     "id": "NULLID",
-    "name": "(No Selection)"
+    "name": "(No Selection)",
+    "types": [
+      "bar", 
+      "point_of_interest",
+      "meal_delivery",
+      "restaurant", 
+      "night_club", 
+      "meal_takeaway", 
+      "cafe", 
+      "store", 
+      "establishment", 
+      "food"
+    ]
   },
   {
     "id": "ChIJh_hkpRMtDogRiYFgy7l-XB0",
