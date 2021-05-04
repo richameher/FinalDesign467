@@ -39,7 +39,11 @@ For the purposes of this project, we created our own datasets of place data and 
 
 ### Replicate Weather Data Collection
 
-TODO
+1. Sign into https://www.visualcrossing.com/weather/weather-data-services#/editDataDefinition
+
+2. Select Place and Type of forecast such as 16-day forecast 
+
+3. Download the csv file
 
 ### Replicate Cities and States Collection
 
