@@ -17,7 +17,7 @@ For the purposes of this project, we created our own datasets of place data and 
 
 * [populartimes](https://github.com/m-wrzr/populartimes) github repo for popular times, wait times, and time spent
 * Google Maps APIs for other general place data: [Place Details](https://developers.google.com/maps/documentation/places/web-service/details), [Place Photos](https://developers.google.com/maps/documentation/places/web-service/photos), and [Distance Matrix](https://developers.google.com/maps/documentation/distance-matrix/overview)
-* [OpenWeather API](https://openweathermap.org/api) for weather forecasts
+* [Virtual Crossing Weather Data](https://www.visualcrossing.com/weather/weather-data-services#/editDataDefinition) for weather forecasts
 * [USA-cities-and-states](https://github.com/grammakov/USA-cities-and-states) github repo for map list options
 
 **See example files in the [`data/` directory](https://github.com/richameher/FinalDesign467/tree/master/data).**
@@ -47,4 +47,4 @@ For the purposes of this project, we created our own datasets of place data and 
 
 ### Replicate Cities and States Collection
 
-TODO
+1. Download csv file from https://github.com/grammakov/USA-cities-and-states
